@@ -4,12 +4,6 @@
 
 ---
 
-## ⚡ Live Demo
-
-📹 **[Watch Demo Video](./demo.mp4)** — Shows a real commit triggering the pipeline and auto-deploying to ECS in real time.
-
----
-
 ## 🏗️ Architecture
 
 ![Architecture Diagram](./Architecture-diagram.png)
@@ -42,10 +36,8 @@ Traffic served via Load Balancer → Clients / Users
 | **CI/CD** | AWS CodePipeline → CodeBuild → CodeDeploy |
 | **Containerization** | Docker, Amazon ECR |
 | **Orchestration** | Amazon ECS + Fargate (serverless containers) |
-| **Networking** | VPC, Availability Zone, Elastic IP |
-| **Security** | AWS Secrets Manager, AWS Certificate Manager (HTTPS) |
+| **Networking** | VPC, Availability Zone |
 | **Monitoring** | CloudWatch Logs, CloudWatch Alarm |
-| **Storage** | S3 Bucket (pipeline artifacts) |
 
 ---
 
@@ -53,8 +45,6 @@ Traffic served via Load Balancer → Clients / Users
 
 - **Auto-deploy on commit** — GitHub webhook triggers full pipeline instantly
 - **Serverless containers** — ECS Fargate; no EC2 servers to manage
-- **Secrets managed securely** — No hardcoded credentials; all via AWS Secrets Manager
-- **HTTPS enabled** — SSL/TLS via AWS Certificate Manager
 - **Fully monitored** — CloudWatch Logs + Alarms for pipeline and app health
 - **Scalable** — Multiple Fargate tasks run in parallel across availability zones
 
@@ -86,7 +76,7 @@ Traffic served via Load Balancer → Clients / Users
 
 | Step | Screenshot |
 |---|---|
-| CodePipeline Triggered | *(upload screenshot)* |
+| CodePipeline Triggered | *(./Architecture-diagram.png)* |
 | CodeBuild Logs | *(upload screenshot)* |
 | ECR Image Pushed | *(upload screenshot)* |
 | ECS Fargate Tasks Running | *(upload screenshot)* |
