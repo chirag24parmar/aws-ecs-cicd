@@ -53,18 +53,24 @@ Traffic served via Load Balancer → Clients / Users
 ## 📁 Project Structure
 
 ```
-├── Dockerfile              # Container build definition
-├── buildspec.yml           # CodeBuild instructions
-├── appspec.yml             # CodeDeploy ECS deployment config
-├── taskdef.json            # ECS Task Definition
-└── app/                    # Application source code
+├── Dockerfile
+├── buildspec.yml
+├── index.html
+├── about.html
+├── contact.html
+├── service.html
+├── guard.html
+├── css/
+├── fonts/
+├── images/
+└── js/
 ```
 
 ---
 
 ## 🚀 How to Deploy
 
-1. Push code to the `main` branch on GitHub
+1. Push code to the `master` branch on GitHub
 2. CodePipeline triggers automatically via webhook
 3. CodeBuild builds and pushes the Docker image to ECR
 4. CodeDeploy updates the ECS service with the new image
@@ -77,14 +83,15 @@ Traffic served via Load Balancer → Clients / Users
 | Step | Screenshot |
 |---|---|
 | CodePipeline | ![ECS CICD](./Project-Screenshots/ECS-CICD.png) |
-| CodeBuild Logs | *(upload screenshot)* |
-| ECR Image Pushed | *(upload screenshot)* |
-| ECS Fargate Tasks Running | *(upload screenshot)* |
-| CloudWatch Monitoring | *(upload screenshot)* |
+| ECR Image Pushed | ![ECR images](./Project-Screenshots/ECR.png) |
+| ECS Fargate Tasks Running | ![ECS task](./Project-Screenshots/ECS-task.png) |
+| ECS Service | ![ECS service](./Project-Screenshots/ECS-Service.png) |
+| ECS Cluster | ![ECS cluster](./Project-Screenshots/ECS-cluster.png) |
+| EC2 | ![EC2](./Project-Screenshots/EC2.png) |
 
 ---
 
 ## 👨‍💻 Author
 
-**Chirag** — DevOps Engineer  
-[GitHub](https://github.com/) • [LinkedIn](https://linkedin.com/)
+**Chirag**
+• [LinkedIn](https://www.linkedin.com/in/chirag-parmar-4a57a81b9/)
