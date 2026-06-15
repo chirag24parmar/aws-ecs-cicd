@@ -83,10 +83,10 @@ Traffic served via Load Balancer → Clients / Users
 | Step | Screenshot |
 |---|---|
 | CodePipeline | ![ECS CICD](./Project-Screenshots/ECS-CICD.png) |
-| ECR Image Pushed | ![ECR images](./Project-Screenshots/ECR.png) |
-| ECS Fargate Tasks Running | ![ECS task](./Project-Screenshots/ECS-task.png) |
-| ECS Service | ![ECS service](./Project-Screenshots/ECS-Service.png) |
 | ECS Cluster | ![ECS cluster](./Project-Screenshots/ECS-cluster.png) |
+| ECS Service | ![ECS service](./Project-Screenshots/ECS-Service.png) |
+| ECS Fargate Tasks Running | ![ECS task](./Project-Screenshots/ECS-task.png) |
+| ECR Image Pushed | ![ECR images](./Project-Screenshots/ECR.png) |
 | EC2 | ![EC2](./Project-Screenshots/EC2.png) |
 
 ---
