@@ -12,7 +12,7 @@
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](./Architecture-new.png)
+![Architecture Diagram](./Architecture-diagram.png)
 
 ---
 
