@@ -76,7 +76,7 @@ Traffic served via Load Balancer → Clients / Users
 
 | Step | Screenshot |
 |---|---|
-| CodePipeline Triggered | ![Architecture Diagram](./Architecture-diagram.png) |
+| CodePipeline | ![ECS CICD](./Project-Screenshots/ECS-CICD.png) |
 | CodeBuild Logs | *(upload screenshot)* |
 | ECR Image Pushed | *(upload screenshot)* |
 | ECS Fargate Tasks Running | *(upload screenshot)* |
