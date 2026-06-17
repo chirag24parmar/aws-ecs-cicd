@@ -1,4 +1,4 @@
-# 🚀 AWS DevOps CI/CD Pipeline — Containerized App Deployment on ECS Fargate
+# 🚀 AWS DevOps CI/CD Pipeline — Containerized App Deployment on ECS
 
 > **Auto-deploy on every Git commit** — Code pushed to GitHub triggers a full CI/CD pipeline that builds, pushes, and deploys Docker containers to ECS Fargate with zero manual steps.
 
