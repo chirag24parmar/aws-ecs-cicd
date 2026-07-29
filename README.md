@@ -90,8 +90,4 @@ Traffic served via Load Balancer → Clients / Users
 | EC2 | ![EC2](./Project-Screenshots/EC2.png) |
 
 ---
-
-## 👨‍💻 Author
-
-**Chirag**
-• [LinkedIn](https://www.linkedin.com/in/chirag-parmar-4a57a81b9/)
+**Author:** Chirag Parmar
