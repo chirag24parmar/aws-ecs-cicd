@@ -37,7 +37,6 @@ Traffic served via Load Balancer → Clients / Users
 | **Containerization** | Docker, Amazon ECR |
 | **Orchestration** | Amazon ECS + Fargate (serverless containers) |
 | **Networking** | VPC, Availability Zone |
-| **Monitoring** | CloudWatch Logs, CloudWatch Alarm |
 
 ---
 
@@ -45,7 +44,6 @@ Traffic served via Load Balancer → Clients / Users
 
 - **Auto-deploy on commit** — GitHub webhook triggers full pipeline instantly
 - **Serverless containers** — ECS Fargate; no EC2 servers to manage
-- **Fully monitored** — CloudWatch Logs + Alarms for pipeline and app health
 - **Scalable** — Multiple Fargate tasks run in parallel across availability zones
 
 ---
